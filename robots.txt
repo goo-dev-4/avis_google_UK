@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /*.json$
-Disallow: /logo/
-
 Sitemap: https://review-market.uk/sitemap.xml

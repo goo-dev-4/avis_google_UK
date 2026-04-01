@@ -59,17 +59,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Hotels",
-        "provider": {
-            "@type": "Organization",
-            "name": "Review Market"
-        },
-        "areaServed": {
-            "@type": "Country",
-            "name": "United Kingdom"
-        },
-        "description": "Professional Google review service designed for hotels and accommodation providers. Personalised reviews mentioning rooms, breakfast, location and guest experience."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Hotels",
+                        "url": "https://review-market.uk/google-reviews-hotel.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
 

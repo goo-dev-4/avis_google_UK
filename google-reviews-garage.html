@@ -46,11 +46,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Garages and Car Workshops",
-        "provider": {"@type": "Organization", "name": "Review Market"},
-        "areaServed": {"@type": "Country", "name": "United Kingdom"},
-        "description": "Professional Google review service for garages, MOT centres and car workshops. Reviews highlighting MOT testing, servicing quality, pricing transparency and efficient wait times."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Garages",
+                        "url": "https://review-market.uk/google-reviews-garage.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
     <script type="application/ld+json">

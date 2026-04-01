@@ -49,11 +49,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Law Firms and Solicitors",
-        "provider": { "@type": "Organization", "name": "Review Market" },
-        "areaServed": { "@type": "Country", "name": "United Kingdom" },
-        "description": "Professional Google review service for lawyers and solicitors. Personalised reviews highlighting expertise, client communication, professionalism and successful outcomes."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Lawyers",
+                        "url": "https://review-market.uk/google-reviews-lawyer.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
 

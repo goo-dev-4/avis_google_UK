@@ -49,11 +49,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Medical Practices",
-        "provider": { "@type": "Organization", "name": "Review Market" },
-        "areaServed": { "@type": "Country", "name": "United Kingdom" },
-        "description": "Professional Google review service for doctors and medical practices. Personalised reviews mentioning patient care, bedside manner, waiting times and overall experience."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Doctors",
+                        "url": "https://review-market.uk/google-reviews-doctor.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
 

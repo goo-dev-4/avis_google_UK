@@ -49,11 +49,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Dental Practices",
-        "provider": { "@type": "Organization", "name": "Review Market" },
-        "areaServed": { "@type": "Country", "name": "United Kingdom" },
-        "description": "Professional Google review service for dentists and dental practices. Personalised reviews highlighting treatments, patient comfort, staff friendliness and modern facilities."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Dentists",
+                        "url": "https://review-market.uk/google-reviews-dentist.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
 

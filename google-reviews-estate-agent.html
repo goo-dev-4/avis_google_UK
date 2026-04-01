@@ -46,11 +46,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Estate Agents",
-        "provider": {"@type": "Organization", "name": "Review Market"},
-        "areaServed": {"@type": "Country", "name": "United Kingdom"},
-        "description": "Professional Google review service for estate agents and letting agencies. Reviews highlighting property sales, lettings, valuation accuracy and client communication."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Estate Agents",
+                        "url": "https://review-market.uk/google-reviews-estate-agent.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
     <script type="application/ld+json">

@@ -46,11 +46,24 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Service",
-        "serviceType": "Google Reviews for Tradesmen",
-        "provider": {"@type": "Organization", "name": "Review Market"},
-        "areaServed": {"@type": "Country", "name": "United Kingdom"},
-        "description": "Professional Google review service tailored for tradesmen. Reviews highlighting quality of work, reliability, punctuality and competitive quotes."
+        "@type": "Organization",
+        "name": "Review Market",
+        "url": "https://review-market.uk",
+        "logo": "https://review-market.uk/logo.png",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Our Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Reviews for Tradesmen",
+                        "url": "https://review-market.uk/google-reviews-tradesman.html"
+                    }
+                }
+            ]
+        }
     }
     </script>
     <script type="application/ld+json">

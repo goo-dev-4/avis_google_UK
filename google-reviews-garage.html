@@ -36,153 +36,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://review-market.uk/"},
-            {"@type": "ListItem", "position": 2, "name": "Google Reviews for Garages", "item": "https://review-market.uk/google-reviews-garage.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Review Market",
-        "url": "https://review-market.uk",
-        "logo": "https://review-market.uk/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Our Services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://review-market.uk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Google Reviews for Garages",
-                        "url": "https://review-market.uk/google-reviews-garage.html"
+                        "item": "https://review-market.uk/google-reviews-garage.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+                ]
+            },
             {
-                "@type": "Question",
-                "name": "Can the reviews mention MOT testing, servicing and specific car repairs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, every review is written to reflect the services your garage offers. Whether you specialise in MOT testing, full servicing, brake repairs, tyre fitting or diagnostics, the testimonials describe realistic scenarios that motorists relate to and trust."
+                "@type": "Organization",
+                "name": "Review Market",
+                "url": "https://review-market.uk",
+                "logo": "https://review-market.uk/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Our Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google reviews for garages",
+                                "url": "https://review-market.uk/google-reviews-garage.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "How many reviews does a garage need to attract more customers?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Between 25 and 50 reviews are typically enough to establish strong credibility. Most independent garages have very few Google reviews, so building a solid collection quickly gives you a major competitive advantage in your local area."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Will the reviews mention pricing transparency and wait times?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. Our writers incorporate details about fair pricing, no hidden charges, clear explanations of work needed and reasonable wait times. These are the factors that matter most to car owners when choosing a garage."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do Google reviews help garages get more bookings?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, a well-reviewed Google listing generates significantly more phone calls and online bookings. Drivers search for garages on Google Maps and almost always choose the one with the best rating and the most reassuring feedback, especially for MOT and servicing work."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Google Reviews Packages for Garages",
-        "itemListElement": [
-            {
-                "@type": "Product",
-                "position": 1,
-                "name": "25 Positive Reviews + 5 Free",
-                "description": "Pack of 25 five-star Google reviews for garages. UK accounts, personalised text, lifetime guarantee and 24/7 support.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "79",
-                    "priceCurrency": "GBP",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "GBP"},
-                        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "GB"},
-                        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 12, "maxValue": 30, "unitCode": "DAY"}}
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Can the reviews mention MOT testing, servicing and specific car repairs?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, every review is written to reflect the services your garage offers. Whether you specialise in MOT testing, full servicing, brake repairs, tyre fitting or diagnostics, the testimonials describe realistic scenarios that motorists relate to and trust."
+                        }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "GB",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "Question",
+                        "name": "How many reviews does a garage need to attract more customers?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Between 25 and 50 reviews are typically enough to establish strong credibility. Most independent garages have very few Google reviews, so building a solid collection quickly gives you a major competitive advantage in your local area."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Will the reviews mention pricing transparency and wait times?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. Our writers incorporate details about fair pricing, no hidden charges, clear explanations of work needed and reasonable wait times. These are the factors that matter most to car owners when choosing a garage."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do Google reviews help garages get more bookings?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, a well-reviewed Google listing generates significantly more phone calls and online bookings. Drivers search for garages on Google Maps and almost always choose the one with the best rating and the most reassuring feedback, especially for MOT and servicing work."
+                        }
                     }
-                }
+                ]
             },
             {
-                "@type": "Product",
-                "position": 2,
-                "name": "50 Positive Reviews + 10 Free",
-                "description": "Pack of 50 five-star Google reviews for garages. UK accounts, personalised text, lifetime guarantee and 24/7 support.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "139",
-                    "priceCurrency": "GBP",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "GBP"},
-                        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "GB"},
-                        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 25, "maxValue": 60, "unitCode": "DAY"}}
+                "@type": "ItemList",
+                "name": "Google Reviews Packages for Garages",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Reviews + 5 free",
+                            "description": "Pack 25 Positive Reviews + 5 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "GBP"
+                            }
+                        }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "GB",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 3,
-                "name": "100 Positive Reviews + 20 Free",
-                "description": "Pack of 100 five-star Google reviews for garages. UK accounts, personalised text, lifetime guarantee and 24/7 support.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "239",
-                    "priceCurrency": "GBP",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "GBP"},
-                        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "GB"},
-                        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 50, "maxValue": 120, "unitCode": "DAY"}}
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Reviews + 10 free",
+                            "description": "Pack 50 Positive Reviews + 10 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "139",
+                                "priceCurrency": "GBP"
+                            }
+                        }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "GB",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Reviews + 20 free",
+                            "description": "Pack 100 Positive Reviews + 20 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "239",
+                                "priceCurrency": "GBP"
+                            }
+                        }
                     }
-                }
+                ]
             }
         ]
     }

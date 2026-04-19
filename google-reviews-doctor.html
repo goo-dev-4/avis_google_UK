@@ -38,117 +38,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://review-market.uk/" },
-            { "@type": "ListItem", "position": 2, "name": "Google Reviews for Doctors", "item": "https://review-market.uk/google-reviews-doctor.html" }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Review Market",
-        "url": "https://review-market.uk",
-        "logo": "https://review-market.uk/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Our Services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://review-market.uk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Google Reviews for Doctors",
-                        "url": "https://review-market.uk/google-reviews-doctor.html"
+                        "item": "https://review-market.uk/google-reviews-doctor.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+                ]
+            },
             {
-                "@type": "Question",
-                "name": "Will the reviews mention patient trust and bedside manner?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Every review is written to reflect a genuine patient experience. Our writers naturally reference the doctor's attentiveness, reassuring bedside manner, clear explanations and the overall comfort of the consultation to build trust with prospective patients."
+                "@type": "Organization",
+                "name": "Review Market",
+                "url": "https://review-market.uk",
+                "logo": "https://review-market.uk/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Our Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google reviews for doctors",
+                                "url": "https://review-market.uk/google-reviews-doctor.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Can the reviews address waiting times and appointment availability?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. We can include positive mentions of reasonable waiting times, easy appointment booking and efficient reception staff. These are key factors that patients consider when choosing a GP or medical practice."
-                }
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Will the reviews mention patient trust and bedside manner?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Every review is written to reflect a genuine patient experience. Our writers naturally reference the doctor's attentiveness, reassuring bedside manner, clear explanations and the overall comfort of the consultation to build trust with prospective patients."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can the reviews address waiting times and appointment availability?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. We can include positive mentions of reasonable waiting times, easy appointment booking and efficient reception staff. These are key factors that patients consider when choosing a GP or medical practice."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Is it appropriate for a medical practice to have Google reviews?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Google reviews are increasingly important for healthcare providers. Patients actively search for GPs, specialists and clinics online, and a strong Google rating helps them feel confident in their choice. Reviews focusing on the quality of care and patient experience are both appropriate and highly valued."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How many reviews should a new medical practice aim for?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "For a new practice, we recommend at least 50 reviews to establish credibility quickly. This creates a strong first impression for patients searching online and helps your listing appear prominently in local search results."
+                        }
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "Is it appropriate for a medical practice to have Google reviews?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Google reviews are increasingly important for healthcare providers. Patients actively search for GPs, specialists and clinics online, and a strong Google rating helps them feel confident in their choice. Reviews focusing on the quality of care and patient experience are both appropriate and highly valued."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How many reviews should a new medical practice aim for?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "For a new practice, we recommend at least 50 reviews to establish credibility quickly. This creates a strong first impression for patients searching online and helps your listing appear prominently in local search results."
-                }
-            }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Doctor Google Reviews Packages",
-        "itemListElement": [
-            {
-                "@type": "Product", "position": 1,
-                "name": "25 Positive Reviews + 5 Free",
-                "description": "25 five-star Google reviews for your medical practice. UK accounts, personalised text, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "79", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 12, "maxValue": 30, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
-            },
-            {
-                "@type": "Product", "position": 2,
-                "name": "50 Positive Reviews + 10 Free",
-                "description": "50 five-star Google reviews for your medical practice. UK accounts, personalised text, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "139", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 25, "maxValue": 60, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
-            },
-            {
-                "@type": "Product", "position": 3,
-                "name": "100 Positive Reviews + 20 Free",
-                "description": "100 five-star Google reviews for your medical practice. UK accounts, personalised text, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "239", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 50, "maxValue": 120, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
+                "@type": "ItemList",
+                "name": "Doctor Google Reviews Packages",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Reviews + 5 free",
+                            "description": "Pack 25 Positive Reviews + 5 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Reviews + 10 free",
+                            "description": "Pack 50 Positive Reviews + 10 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "139",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Reviews + 20 free",
+                            "description": "Pack 100 Positive Reviews + 20 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "239",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }

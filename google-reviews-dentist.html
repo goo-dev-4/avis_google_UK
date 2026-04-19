@@ -38,117 +38,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://review-market.uk/" },
-            { "@type": "ListItem", "position": 2, "name": "Google Reviews for Dentists", "item": "https://review-market.uk/google-reviews-dentist.html" }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Review Market",
-        "url": "https://review-market.uk",
-        "logo": "https://review-market.uk/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Our Services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://review-market.uk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Google Reviews for Dentists",
-                        "url": "https://review-market.uk/google-reviews-dentist.html"
+                        "item": "https://review-market.uk/google-reviews-dentist.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+                ]
+            },
             {
-                "@type": "Question",
-                "name": "Will the reviews mention specific dental treatments and patient comfort?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Each review is customised to your dental practice. Our writers can reference specific treatments such as check-ups, fillings, whitening, orthodontics or implants, as well as the gentle approach, modern equipment and comfortable environment that put nervous patients at ease."
+                "@type": "Organization",
+                "name": "Review Market",
+                "url": "https://review-market.uk",
+                "logo": "https://review-market.uk/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Our Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google reviews for dentists",
+                                "url": "https://review-market.uk/google-reviews-dentist.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Can the reviews highlight how friendly and reassuring the dental staff are?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. Many patients choose a dentist based on how welcoming the team is. Our reviews naturally mention the warm reception, the reassuring manner of the dental nurses and the dentist's ability to explain each step of the treatment clearly."
-                }
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Will the reviews mention specific dental treatments and patient comfort?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Each review is customised to your dental practice. Our writers can reference specific treatments such as check-ups, fillings, whitening, orthodontics or implants, as well as the gentle approach, modern equipment and comfortable environment that put nervous patients at ease."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can the reviews highlight how friendly and reassuring the dental staff are?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. Many patients choose a dentist based on how welcoming the team is. Our reviews naturally mention the warm reception, the reassuring manner of the dental nurses and the dentist's ability to explain each step of the treatment clearly."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How many Google reviews does a dental practice need to attract new patients?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Most dental practices in the UK have fewer than 30 reviews, so reaching 50 or more can give you a significant advantage in local search. For practices in competitive urban areas, 100 reviews establishes a dominant presence that drives consistent patient registrations."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "My dental practice has some negative reviews. Can you help?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, we offer two effective strategies: purchasing positive reviews to improve your overall rating and dilute the impact of negative ones, or using our review deletion service to have unjustified negative reviews removed from your Google listing entirely."
+                        }
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "How many Google reviews does a dental practice need to attract new patients?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Most dental practices in the UK have fewer than 30 reviews, so reaching 50 or more can give you a significant advantage in local search. For practices in competitive urban areas, 100 reviews establishes a dominant presence that drives consistent patient registrations."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "My dental practice has some negative reviews. Can you help?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, we offer two effective strategies: purchasing positive reviews to improve your overall rating and dilute the impact of negative ones, or using our review deletion service to have unjustified negative reviews removed from your Google listing entirely."
-                }
-            }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Dentist Google Reviews Packages",
-        "itemListElement": [
-            {
-                "@type": "Product", "position": 1,
-                "name": "25 Positive Reviews + 5 Free",
-                "description": "25 five-star Google reviews for your dental practice. UK accounts, personalised text mentioning treatments and patient care, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "79", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 12, "maxValue": 30, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
-            },
-            {
-                "@type": "Product", "position": 2,
-                "name": "50 Positive Reviews + 10 Free",
-                "description": "50 five-star Google reviews for your dental practice. UK accounts, personalised text mentioning treatments and patient care, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "139", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 25, "maxValue": 60, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
-            },
-            {
-                "@type": "Product", "position": 3,
-                "name": "100 Positive Reviews + 20 Free",
-                "description": "100 five-star Google reviews for your dental practice. UK accounts, personalised text mentioning treatments and patient care, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "239", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 50, "maxValue": 120, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
+                "@type": "ItemList",
+                "name": "Dentist Google Reviews Packages",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Reviews + 5 free",
+                            "description": "Pack 25 Positive Reviews + 5 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Reviews + 10 free",
+                            "description": "Pack 50 Positive Reviews + 10 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "139",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Reviews + 20 free",
+                            "description": "Pack 100 Positive Reviews + 20 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "239",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }

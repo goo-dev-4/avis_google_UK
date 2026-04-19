@@ -36,153 +36,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://review-market.uk/"},
-            {"@type": "ListItem", "position": 2, "name": "Google Reviews for Roofers", "item": "https://review-market.uk/google-reviews-roofer.html"}
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Review Market",
-        "url": "https://review-market.uk",
-        "logo": "https://review-market.uk/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Our Services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://review-market.uk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Google Reviews for Roofers",
-                        "url": "https://review-market.uk/google-reviews-roofer.html"
+                        "item": "https://review-market.uk/google-reviews-roofer.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+                ]
+            },
             {
-                "@type": "Question",
-                "name": "Can the reviews mention specific roofing services like repairs, guttering and flat roofs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, every review is written to reflect your specific roofing services. Whether you specialise in slate re-roofing, flat roof installations, lead work, guttering or chimney repairs, the testimonials describe realistic jobs that homeowners recognise and trust."
+                "@type": "Organization",
+                "name": "Review Market",
+                "url": "https://review-market.uk",
+                "logo": "https://review-market.uk/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Our Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google reviews for roofers",
+                                "url": "https://review-market.uk/google-reviews-roofer.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "How many reviews does a roofer need to dominate local search?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Between 30 and 60 reviews typically establish strong local authority. Roofing is a high-value trade where customers research thoroughly before committing. A roofer with a solid collection of detailed, positive reviews will consistently outrank and outperform competitors with fewer or no reviews."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Will the reviews reference insurance work and weather emergencies?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. Our writers create testimonials that cover emergency storm damage repairs, insurance claim support, temporary weatherproofing and full re-roofing projects. These details demonstrate your responsiveness and ability to handle urgent situations professionally."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Do Google reviews help roofers win more contracts?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes, a strong Google rating directly increases the number of quote requests you receive. Homeowners facing a roofing issue want a trusted professional quickly, and they almost always contact the roofer with the best reviews first. This makes Google reviews one of the highest-return investments for any roofing business."
-                }
-            }
-        ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Google Reviews Packages for Roofers",
-        "itemListElement": [
-            {
-                "@type": "Product",
-                "position": 1,
-                "name": "25 Positive Reviews + 5 Free",
-                "description": "Pack of 25 five-star Google reviews for roofers. UK accounts, personalised text, lifetime guarantee and 24/7 support.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "79",
-                    "priceCurrency": "GBP",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "GBP"},
-                        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "GB"},
-                        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 12, "maxValue": 30, "unitCode": "DAY"}}
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Can the reviews mention specific roofing services like repairs, guttering and flat roofs?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, every review is written to reflect your specific roofing services. Whether you specialise in slate re-roofing, flat roof installations, lead work, guttering or chimney repairs, the testimonials describe realistic jobs that homeowners recognise and trust."
+                        }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "GB",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "Question",
+                        "name": "How many reviews does a roofer need to dominate local search?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Between 30 and 60 reviews typically establish strong local authority. Roofing is a high-value trade where customers research thoroughly before committing. A roofer with a solid collection of detailed, positive reviews will consistently outrank and outperform competitors with fewer or no reviews."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Will the reviews reference insurance work and weather emergencies?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. Our writers create testimonials that cover emergency storm damage repairs, insurance claim support, temporary weatherproofing and full re-roofing projects. These details demonstrate your responsiveness and ability to handle urgent situations professionally."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do Google reviews help roofers win more contracts?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes, a strong Google rating directly increases the number of quote requests you receive. Homeowners facing a roofing issue want a trusted professional quickly, and they almost always contact the roofer with the best reviews first. This makes Google reviews one of the highest-return investments for any roofing business."
+                        }
                     }
-                }
+                ]
             },
             {
-                "@type": "Product",
-                "position": 2,
-                "name": "50 Positive Reviews + 10 Free",
-                "description": "Pack of 50 five-star Google reviews for roofers. UK accounts, personalised text, lifetime guarantee and 24/7 support.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "139",
-                    "priceCurrency": "GBP",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "GBP"},
-                        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "GB"},
-                        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 25, "maxValue": 60, "unitCode": "DAY"}}
+                "@type": "ItemList",
+                "name": "Google Reviews Packages for Roofers",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Reviews + 5 free",
+                            "description": "Pack 25 Positive Reviews + 5 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "GBP"
+                            }
+                        }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "GB",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
-                    }
-                }
-            },
-            {
-                "@type": "Product",
-                "position": 3,
-                "name": "100 Positive Reviews + 20 Free",
-                "description": "Pack of 100 five-star Google reviews for roofers. UK accounts, personalised text, lifetime guarantee and 24/7 support.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "239",
-                    "priceCurrency": "GBP",
-                    "availability": "https://schema.org/InStock",
-                    "shippingDetails": {
-                        "@type": "OfferShippingDetails",
-                        "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "GBP"},
-                        "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "GB"},
-                        "deliveryTime": {"@type": "ShippingDeliveryTime", "handlingTime": {"@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY"}, "transitTime": {"@type": "QuantitativeValue", "minValue": 50, "maxValue": 120, "unitCode": "DAY"}}
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Reviews + 10 free",
+                            "description": "Pack 50 Positive Reviews + 10 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "139",
+                                "priceCurrency": "GBP"
+                            }
+                        }
                     },
-                    "hasMerchantReturnPolicy": {
-                        "@type": "MerchantReturnPolicy",
-                        "applicableCountry": "GB",
-                        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Reviews + 20 free",
+                            "description": "Pack 100 Positive Reviews + 20 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "239",
+                                "priceCurrency": "GBP"
+                            }
+                        }
                     }
-                }
+                ]
             }
         ]
     }

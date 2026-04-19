@@ -38,117 +38,131 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://review-market.uk/" },
-            { "@type": "ListItem", "position": 2, "name": "Google Reviews for Electricians", "item": "https://review-market.uk/google-reviews-electrician.html" }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Review Market",
-        "url": "https://review-market.uk",
-        "logo": "https://review-market.uk/logo.png",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Our Services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://review-market.uk/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
                         "name": "Google Reviews for Electricians",
-                        "url": "https://review-market.uk/google-reviews-electrician.html"
+                        "item": "https://review-market.uk/google-reviews-electrician.html"
                     }
-                }
-            ]
-        }
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+                ]
+            },
             {
-                "@type": "Question",
-                "name": "Will the reviews mention electrical certifications and qualifications?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Our writers can naturally reference your qualifications, NICEIC or NAPIT registration, Part P compliance and any other accreditations. This reassures potential customers that they are hiring a certified, trustworthy electrician."
+                "@type": "Organization",
+                "name": "Review Market",
+                "url": "https://review-market.uk",
+                "logo": "https://review-market.uk/logo.png",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Our Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "google reviews for electricians",
+                                "url": "https://review-market.uk/google-reviews-electrician.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Can reviews mention emergency electrical work?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolutely. We can include reviews that specifically reference emergency call-outs, fast response times, out-of-hours availability and the peace of mind that comes from having a reliable electrician on call. These are exactly the details that homeowners value most."
-                }
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Will the reviews mention electrical certifications and qualifications?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. Our writers can naturally reference your qualifications, NICEIC or NAPIT registration, Part P compliance and any other accreditations. This reassures potential customers that they are hiring a certified, trustworthy electrician."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can reviews mention emergency electrical work?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. We can include reviews that specifically reference emergency call-outs, fast response times, out-of-hours availability and the peace of mind that comes from having a reliable electrician on call. These are exactly the details that homeowners value most."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do Google reviews help electricians win more jobs?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Homeowners searching for an electrician on Google compare ratings and reviews before making contact. An electrician with 50 positive reviews and a 4.8-star rating will receive far more enquiries than a competitor with only a handful of reviews. Strong reviews also reduce the need for expensive advertising."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can the reviews cover different areas I work in?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. We can incorporate mentions of the specific towns, cities or regions you serve. This is particularly valuable for local SEO, helping your Google listing appear in searches for electricians in those areas."
+                        }
+                    }
+                ]
             },
             {
-                "@type": "Question",
-                "name": "How do Google reviews help electricians win more jobs?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Homeowners searching for an electrician on Google compare ratings and reviews before making contact. An electrician with 50 positive reviews and a 4.8-star rating will receive far more enquiries than a competitor with only a handful of reviews. Strong reviews also reduce the need for expensive advertising."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Can the reviews cover different areas I work in?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. We can incorporate mentions of the specific towns, cities or regions you serve. This is particularly valuable for local SEO, helping your Google listing appear in searches for electricians in those areas."
-                }
-            }
-        ]
-    }
-    </script>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "ItemList",
-        "name": "Electrician Google Reviews Packages",
-        "itemListElement": [
-            {
-                "@type": "Product", "position": 1,
-                "name": "25 Positive Reviews + 5 Free",
-                "description": "25 five-star Google reviews for your electrical business. UK accounts, personalised text, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "79", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 12, "maxValue": 30, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
-            },
-            {
-                "@type": "Product", "position": 2,
-                "name": "50 Positive Reviews + 10 Free",
-                "description": "50 five-star Google reviews for your electrical business. UK accounts, personalised text, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "139", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 25, "maxValue": 60, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
-            },
-            {
-                "@type": "Product", "position": 3,
-                "name": "100 Positive Reviews + 20 Free",
-                "description": "100 five-star Google reviews for your electrical business. UK accounts, personalised text, lifetime guarantee.",
-                "image": "https://review-market.uk/buy-google-reviews-uk.png",
-                "offers": {
-                    "@type": "Offer", "price": "239", "priceCurrency": "GBP", "availability": "https://schema.org/InStock",
-                    "shippingDetails": { "@type": "OfferShippingDetails", "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "GBP" }, "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "GB" }, "deliveryTime": { "@type": "ShippingDeliveryTime", "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" }, "transitTime": { "@type": "QuantitativeValue", "minValue": 50, "maxValue": 120, "unitCode": "DAY" } } },
-                    "hasMerchantReturnPolicy": { "@type": "MerchantReturnPolicy", "applicableCountry": "GB", "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted" }
-                }
+                "@type": "ItemList",
+                "name": "Electrician Google Reviews Packages",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "25 Positive Reviews + 5 free",
+                            "description": "Pack 25 Positive Reviews + 5 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "79",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "50 Positive Reviews + 10 free",
+                            "description": "Pack 50 Positive Reviews + 10 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "139",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Positive Reviews + 20 free",
+                            "description": "Pack 100 Positive Reviews + 20 free.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "239",
+                                "priceCurrency": "GBP"
+                            }
+                        }
+                    }
+                ]
             }
         ]
     }
